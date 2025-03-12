@@ -50,73 +50,73 @@ const Container = styled.div`
         switch (position) {
             case 0:
                 positionStyle = `
-          position: absolute;
-          top: 20px;
-          left: 20px;
-        `;
+                  position: absolute;
+                  top: 20px;
+                  left: 20px;
+                `;
                 break;
             case 1:
                 positionStyle = `
-          position: absolute;
-          top: 20px;
-          left: 50%;
-          transform: translateX(-50%) scale(${props.settings.scale});
-        `;
+                  position: absolute;
+                  top: 20px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                `;
                 break;
             case 2:
                 positionStyle = `
-          position: absolute;
-          top: 20px;
-          right: 20px;
-        `;
+                  position: absolute;
+                  top: 20px;
+                  right: 20px;
+                `;
                 break;
             case 3:
                 positionStyle = `
-          position: absolute;
-          top: 50%;
-          left: 20px;
-          transform: translateY(-50%) scale(${props.settings.scale});
-        `;
+                  position: absolute;
+                  top: 50%;
+                  left: 20px;
+                  transform: translateY(-50%);
+                `;
                 break;
             case 4:
                 positionStyle = `
-          position: relative;
-        `;
+                  position: relative;
+                `;
                 break;
             case 5:
                 positionStyle = `
-          position: absolute;
-          top: 50%;
-          right: 20px;
-          transform: translateY(-50%) scale(${props.settings.scale});
-        `;
+                  position: absolute;
+                  top: 50%;
+                  right: 20px;
+                  transform: translateY(-50%);
+                `;
                 break;
             case 6:
                 positionStyle = `
-          position: absolute;
-          bottom: 20px;
-          left: 20px;
-        `;
+                  position: absolute;
+                  bottom: 20px;
+                  left: 20px;
+                `;
                 break;
             case 7:
                 positionStyle = `
-          position: absolute;
-          bottom: 20px;
-          left: 50%;
-          transform: translateX(-50%) scale(${props.settings.scale});
-        `;
+                  position: absolute;
+                  bottom: 20px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                `;
                 break;
             case 8:
                 positionStyle = `
-          position: absolute;
-          bottom: 20px;
-          right: 20px;
-        `;
+                  position: absolute;
+                  bottom: 20px;
+                  right: 20px;
+                `;
                 break;
             default:
                 positionStyle = `
-          position: relative;
-        `;
+                  position: relative;
+                `;
         }
 
         return css`
